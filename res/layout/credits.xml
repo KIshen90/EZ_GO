@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/creditsHeadingView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_x="4dp"
+        android:layout_y="29dp"
+        android:gravity="center_horizontal"
+        android:text="@string/credits"
+        android:textColor="#00ffff"
+        android:textSize="40dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/creditsBodyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_x="10dp"
+        android:layout_y="95dp"
+        android:text="@string/credits"
+        android:textColor="#ffffff" />
+
+</AbsoluteLayout>
